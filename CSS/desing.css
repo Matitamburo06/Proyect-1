@@ -1,5 +1,5 @@
 body {
-  background-color: coral;
+  background-color: aqua;
 }
 
 h1 {
@@ -13,7 +13,6 @@ ul li {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  display: inline;
 }
 
 p {
@@ -26,23 +25,24 @@ img {
 
 ul {
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto;
-  display: inline;
+  display: flex;
 }
 
 ul li a {
   text-align: center;
 }
 
-.row {
-  display: flex;
-  float: inline-start;
-  justify-content: space-between;
-}
-
 .cajita .carousel img {
   text-align: center;
   height: 300px;
   padding: auto;
+  text-decoration: none;
+}
+
+header {
+  margin: auto;
+  background-color: aquamarine;
+  padding: 5px;
 }
